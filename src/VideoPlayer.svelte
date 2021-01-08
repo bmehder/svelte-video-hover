@@ -20,7 +20,8 @@
   {/if}
 
   <video
-    class="vid-player controls"
+    class="vid-player"
+    controls
     class:sm-player={showFloat}
     bind:this={videoPlayer}>
     <track kind="captions" />
